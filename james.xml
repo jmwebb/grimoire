@@ -31,7 +31,7 @@
 		  <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://unnamedcardgame.s3-us-west-1.amazonaws.com/Screen+Shot+2020-05-10+at+10.17.55+PM.png">XXX</set>
 		  <related>Another card name</related>
 		  <reverse-related>Another card name</reverse-related>
-		  <token>1</token>
+		  <token>0</token>
 		  <tablerow>3</tablerow>
 		  <cipt>1</cipt>
 		  <upsidedown>0</upsidedown>
@@ -59,7 +59,7 @@
 		  <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://unnamedcardgame.s3-us-west-1.amazonaws.com/Screen+Shot+2020-05-10+at+10.17.55+PM.png">XXX</set>
 		  <related>Another card name</related>
 		  <reverse-related>Another card name</reverse-related>
-		  <token>1</token>
+		  <token>0</token>
 		  <tablerow>3</tablerow>
 		  <cipt>1</cipt>
 		  <upsidedown>0</upsidedown>
