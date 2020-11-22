@@ -16,7 +16,7 @@
 				<maintype>Structure</maintype>
 				<pt>5</pt>
 			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Pyro</set>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Pyro</set>
 		</card>
 		<card>
 			<name>Ignite</name>
@@ -25,7 +25,7 @@
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
 			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://static.wikia.nocookie.net/l5r/images/a/ae/Isawa%27s_Fire.jpg/revision/latest?cb=20120810151201">Pyro</set>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="2" muid="123456" picurl="https://static.wikia.nocookie.net/l5r/images/a/ae/Isawa%27s_Fire.jpg/revision/latest?cb=20120810151201">Pyro</set>
 		</card>
 		<card>
 			<name>Bonfire</name>
@@ -34,7 +34,7 @@
 				<maintype>Structure</maintype>
 				<pt>30</pt>
 			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://i.pinimg.com/originals/59/01/b5/5901b58c61470e89cba5a1df8e6682df.jpg">Pyro</set>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="3" muid="123456" picurl="https://i.pinimg.com/originals/59/01/b5/5901b58c61470e89cba5a1df8e6682df.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Inferno</name>
@@ -43,16 +43,16 @@
 				<maintype>Spell</maintype>
 				<manacost>0</manacost>
 			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://www.courant.com/resizer/rrHhffFU7o7pYMcPk9vvuyFeAhc=/800x449/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/MNNKCCODAJHDNDTKRMFLYU47FY.jpg">Pyro</set>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="4" muid="123456" picurl="https://www.courant.com/resizer/rrHhffFU7o7pYMcPk9vvuyFeAhc=/800x449/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/MNNKCCODAJHDNDTKRMFLYU47FY.jpg">Pyro</set>
 		</card>
 		<card>
-			<name>Hellfire Meteor Shower</name>
+			<name>Lamentation of the Firebird</name>
 			<text>Cost 50 ember. Deals 25 damage. Can ignite 1 combustible.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>3</manacost>
 			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://i.pinimg.com/originals/84/b9/99/84b9998c77eb07d82daeccf5ee21717c.jpg">Pyro</set>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="5" muid="123456" picurl="https://i.pinimg.com/564x/ec/a8/c3/eca8c322537246fefce65664f8030419.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Fire at Will!</name>
@@ -61,7 +61,7 @@
 				<maintype>Spell</maintype>
 				<manacost>0</manacost>
 			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://c4.wallpaperflare.com/wallpaper/726/528/961/fire-warriors-catapult-throwing-meteor-in-the-sky-hd-wallpaper-preview.jpg">Pyro</set>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="6" muid="123456" picurl="https://c4.wallpaperflare.com/wallpaper/726/528/961/fire-warriors-catapult-throwing-meteor-in-the-sky-hd-wallpaper-preview.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Scorch</name>
@@ -70,7 +70,70 @@
 				<maintype>Curse</maintype>
 				<manacost>2</manacost>
 			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456" picurl="https://i.pinimg.com/564x/df/f6/d2/dff6d208ce4bdcee80c084bf5b0e9129.jpg">Pyro</set>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="7" muid="123456" picurl="https://i.pinimg.com/564x/df/f6/d2/dff6d208ce4bdcee80c084bf5b0e9129.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Hellfire Comet</name>
+			<text>In 3 turns, choose one spell to double the ember cost and damage dealt.</text>
+			<prop>
+				<maintype>Environmental</maintype>
+				<manacost>0</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="8" muid="123456" picurl="https://nypost.com/wp-content/uploads/sites/2/2017/05/170515-dinosaurs-asteroid-documentary-feature.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Gale Winds</name>
+			<text>For 2 turns, ember costs and structure health are doubled.</text>
+			<prop>
+				<maintype>Environmental</maintype>
+				<manacost>0</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="9" muid="123456" picurl="https://timesofsandiego.com/wp-content/uploads/2017/12/Santa-Ana-Winds.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Scorched Earth</name>
+			<text>On next turn, all ignited combustibles in your field produce 2x ember. Then, half of combustibles must be removed.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="10" muid="123456" picurl="https://cdnb.artstation.com/p/assets/images/images/005/849/147/large/azora-visuals-arthur-bozonnet-column-of-fire.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Summon a Fire Demon</name>
+			<text>Cost 5 ember. Deals 5 damage to opponent target. Can be used to ignite 1 combustible. Can follow with additional lower-ember spell.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="11" muid="123456" picurl="https://cdna.artstation.com/p/assets/images/images/008/709/518/large/carlos-martinez-anger-final-31dic.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Fire Arrows</name>
+			<text>Cost 10 ember. Deal 2 damage to all items in opponent's field. Can be used to ignite 1 combustible. Can follow with additional lower-ember spell.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="12" muid="123456" picurl="https://cdna.artstation.com/p/assets/images/images/013/254/946/large/pawel-fotek-fire-arrows2.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Awaken the Balrog</name>
+			<text>Cost 30 ember. Deal 15 damage divided in any way. Can be used to ignite 1 combustible.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>2</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="13" muid="123456" picurl="https://www.theonering.net/torwp/wp-content/uploads/2013/12/Bane-of-Durin-headshotFB.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Gift of Prometheus</name>
+			<text>Gain 10 ember.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>0</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="14" muid="123456" picurl="https://www.worldhistoryedu.com/wp-content/uploads/2019/04/Prometheus-god-of-fire.jpg">Pyro</set>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
