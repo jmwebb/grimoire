@@ -11,13 +11,15 @@
 
 ## Classes
 1. Pyromancer (unbeatable, you lose if you don't pick this)
-  - Resource count doubles each turn
+  - Trades enemy health for attack points
 2. Necromancer (decidely less cool then Pyromancer)
-  - Lose 1 HP per resource
-  - Receive one additional resource each turn
+  - Trades own health for defense spawns
 3. Arcanist (like, seriously?)
+  - No spawns, draws a lot cards
 4. Blood Mage (Nancy's class)
+  - Trades enemy health for own health
 5. Druid cuck
+  - Health fountain
 
 ## Gameplay
 ### Turn
