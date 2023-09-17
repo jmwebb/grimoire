@@ -20,7 +20,7 @@
         },
         {
             "name": "Zombie",
-            "text": "When killed, flip this card.",
+            "text": "Remove one Corpse token from board. When killed, flip this card.",
             "prop": {
                 "maintype": "Minion",
                 "pt": "1/1",
@@ -141,6 +141,16 @@
             "set": "Necro"
         },
         {
+            "name": "Graveyard",
+            "text": "Once per turn, you may cast a spell requiring a Corpse token without paying the token cost. You must still pay other costs.",
+            "prop": {
+                "maintype": "Structure",
+                "manacost": 1,
+                "pt": "0/3"
+            },
+            "set": "Necro"
+        },
+        {
             "name": "Greater Abomination",
             "text": {},
             "prop": {
@@ -179,7 +189,7 @@
         },
         {
             "name": "Sinister Betrayal",
-            "text": "Sacrifice a minion named Necromancer's Apprentice. Gain 5 mana.",
+            "text": "Sacrifice a minion and gain 2 mana. If the minion is named Necromancer's Apprentice. Gain 5 mana.",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 1
