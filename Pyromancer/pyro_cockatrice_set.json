@@ -1,0 +1,131 @@
+{
+    "card": [
+        {
+            "name": "Pyre",
+            "text": "Once ignited, +1 ember per turn. Player can play one additional ignition or combustible.",
+            "prop": {
+                "maintype": "Structure",
+                "pt": 5
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Ignite",
+            "text": "Cost 1 ember. Ignite 1 combustible. Player can play one additional ignition or combustible.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Bonfire",
+            "text": "Combine 3 ingited pyres into 1 bonfire for +3 ember per turn. Player can play one additional ignition or combustible.",
+            "prop": {
+                "maintype": "Structure",
+                "pt": 30
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Inferno",
+            "text": "Cost 5 ember. Deals 2 damage multiplied by the number of Infernos previously used this turn. Draw 3 cards. Can ignite 1 combustible. Player can play one additional Inferno.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 0
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Lamentation of the Firebird",
+            "text": "Cost 50 ember. Deals 25 damage. Can ignite 1 combustible.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 3
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Fire at Will!",
+            "text": "Sacrifice any number of ignited Structures. Deals 3 damage per sacrificed Structure.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 0
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Scorch",
+            "text": "Cost 2 ember. Deals 5 damage every turn to any card in your opponent's field. +1 ember per turn.",
+            "prop": {
+                "maintype": "Curse",
+                "manacost": 2
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Hellfire Comet",
+            "text": "In 3 turns, choose one spell to double the ember cost and damage dealt.",
+            "prop": {
+                "maintype": "Environmental",
+                "manacost": 0
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Gale Winds",
+            "text": "For 2 turns, ember costs and structure health are doubled.",
+            "prop": {
+                "maintype": "Environmental",
+                "manacost": 0
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Scorched Earth",
+            "text": "On next turn, all ignited combustibles in your field produce 2x ember. Then, half of combustibles must be removed.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Summon Fire Demon",
+            "text": "Cost 5 ember. Deals 5 damage to opponent target. Can be used to ignite 1 combustible. Can follow with additional lower-ember spell.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Fire Arrows",
+            "text": "Cost 10 ember. Deal 2 damage to all items in opponent's field. Can be used to ignite 1 combustible. Can follow with additional lower-ember spell.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Awaken the Balrog",
+            "text": "Cost 30 ember. Deal 15 damage divided in any way. Can be used to ignite 1 combustible.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 2
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Gift of Prometheus",
+            "text": "Gain 10 ember.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 0
+            },
+            "set": "Pyro"
+        }
+    ]
+}
+

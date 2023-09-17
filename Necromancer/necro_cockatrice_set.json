@@ -1,0 +1,193 @@
+{
+    "card": [
+        {
+            "name": "Summon Skeletons",
+            "text": "Summon two Skeletons",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Skeleton",
+            "text": {},
+            "prop": {
+                "maintype": "Minion",
+                "pt": "1/1"
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Zombie",
+            "text": "When killed, flip this card.",
+            "prop": {
+                "maintype": "Minion",
+                "pt": "1/1"
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Flesh Pile",
+            "text": "At the start of the controlling player's turn, flip this card.",
+            "prop": {
+                "maintype": "Minion",
+                "pt": "0/1"
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Summon Zombie",
+            "text": "Summon a Zombie",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Necromancer's Orders",
+            "text": "Command three minions to attack.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 2
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Overwhelming Dominance",
+            "text": "Command all minions to attack.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 5
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Bone Necropolis",
+            "text": "Bone Necropolis summons one skeleton at the start of each turn",
+            "prop": {
+                "maintype": "Structure",
+                "manacost": 2
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Golem Pit",
+            "text": "At the begining of your turn, annihilate a skeleton or zombie to add one counter to Golem Pit. If Golem Pit has 2 counters at the start of your turn, summon a Flesh Golem. ",
+            "prop": {
+                "maintype": "Structure",
+                "manacost": 2
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Flesh Golem",
+            "text": {},
+            "prop": {
+                "maintype": "Minion",
+                "pt": "4/4"
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Willing Sacrifice",
+            "text": "Annihilate any number of minions. Draw a card for every two minions annihilated this way.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 2
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Summon Acolyte",
+            "text": "Summon one Acolyte.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Acolyte",
+            "text": "When this minion is destroyed, create a Corpse token.",
+            "prop": {
+                "maintype": "Minion",
+                "pt": "1/1"
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Profane Rite",
+            "text": "Sacrifice 5 acoltyes to summon a greater abomination",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 3
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Unholy Chapel",
+            "text": "As long as Unholy Chapel is in your structure zone, you may pay 1 mana to summon an Acolyte",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 3
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Greater Abomination",
+            "text": {},
+            "prop": {
+                "maintype": "Minion",
+                "pt": "10/10"
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Drain Essence",
+            "text": "Deal one damage to each minion in the opponent's Minion Zone. Restore health equal to the total damage done",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 3
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Unholy Blast",
+            "text": "Sacrifice a minion to deal 3 damage. If this minion was an Acolyte, deal 2 additional damage",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Necromancer's Apprentice",
+            "text": "As long as this minion is alive you may play a spell costing 2 mana or less for free each turn. ",
+            "prop": {
+                "maintype": "Minion",
+                "pt": 1
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Sinister Betrayal",
+            "text": "Sacrifice a minion named Necromancer's Apprentice. Gain 5 mana.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Unlimited Power",
+            "text": "Create one zombie for each Corpse token on your board.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 10
+            },
+            "set": "Necro"
+        }
+    ]
+}

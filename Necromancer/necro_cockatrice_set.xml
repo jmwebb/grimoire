@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+	<sets>
+		<set>
+			<name>Necro</name>
+			<longname>Necroomancer Set</longname>
+			<settype>Custom</settype>
+			<releasedate>2023-9-16</releasedate>
+		</set>  
+  	</sets>
+	<cards>
+		<card>
+			<name>Summon Skeletons</name>
+			<text>Summon two Skeletons</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Skeleton</name>
+			<text></text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>1/1</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Zombie</name>
+			<text>When killed, flip this card.</text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>1/1</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Flesh Pile</name>
+			<text>At the start of the controlling player's turn, flip this card.</text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>0/1</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Summon Zombie</name>
+			<text>Summon a Zombie</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Necromancer's Orders</name>
+			<text>Command three minions to attack.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>2</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Overwhelming Dominance</name>
+			<text>Command all minions to attack.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>5</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Bone Necropolis</name>
+			<text>Bone Necropolis summons one skeleton at the start of each turn</text>
+			<prop>
+				<maintype>Structure</maintype>
+				<manacost>2</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Golem Pit</name>
+			<text>At the begining of your turn, annihilate a skeleton or zombie to add one counter to Golem Pit. If Golem Pit has 2 counters at the start of your turn, summon a Flesh Golem. </text>
+			<prop>
+				<maintype>Structure</maintype>
+				<manacost>2</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Flesh Golem</name>
+			<text></text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>4/4</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Willing Sacrifice</name>
+			<text>Annihilate any number of minions. Draw a card for every two minions annihilated this way.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>2</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Summon Acolyte</name>
+			<text>Summon one Acolyte.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Acolyte</name>
+			<text>When this minion is destroyed, create a Corpse token.</text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>1/1</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Profane Rite</name>
+			<text>Sacrifice 5 acoltyes to summon a greater abomination</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>3</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Unholy Chapel</name>
+			<text>As long as Unholy Chapel is in your structure zone, you may pay 1 mana to summon an Acolyte</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>3</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Greater Abomination</name>
+			<text></text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>10/10</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Drain Essence</name>
+			<text>Deal one damage to each minion in the opponent's Minion Zone. Restore health equal to the total damage done</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>3</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Unholy Blast</name>
+			<text>Sacrifice a minion to deal 3 damage. If this minion was an Acolyte, deal 2 additional damage</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Necromancer's Apprentice</name>
+			<text>As long as this minion is alive you may play a spell costing 2 mana or less for free each turn. </text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>1</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Sinister Betrayal</name>
+			<text>Sacrifice a minion named Necromancer's Apprentice. Gain 5 mana.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Unlimited Power</name>
+			<text>Create one zombie for each Corpse token on your board.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>10</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
