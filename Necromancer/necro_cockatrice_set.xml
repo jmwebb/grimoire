@@ -11,7 +11,7 @@
 	<cards>
 		<card>
 			<name>Summon Skeletons</name>
-			<text>Summon two Skeletons</text>
+			<text>Summon three Skeletons</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
@@ -32,7 +32,7 @@
 			<text>Remove one Corpse token from board. When killed, flip this card.</text>
 			<prop>
 				<maintype>Minion</maintype>
-				<pt>1/1</pt>
+				<pt>3/1</pt>
 				<manacost>1</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
@@ -57,19 +57,19 @@
 		</card>
 		<card>
 			<name>Necromancer's Orders</name>
-			<text>Command three minions to attack.</text>
+			<text>Command three Minions to attack as if it were the Minion phase.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>2</manacost>
+				<manacost>1</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
 		<card>
 			<name>Overwhelming Dominance</name>
-			<text>Command all minions to attack.</text>
+			<text>Command all minions to attack as if it were the Minion phase.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>5</manacost>
+				<manacost>4</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
@@ -79,32 +79,32 @@
 			<prop>
 				<maintype>Structure</maintype>
 				<manacost>2</manacost>
-				<pt>0/2</pt>
-			</prop>
-			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
-		</card>
-		<card>
-			<name>Golem Pit</name>
-			<text>At the begining of your turn, annihilate a skeleton or zombie to add one counter to Golem Pit. If Golem Pit has 2 counters at the start of your turn, summon a Flesh Golem. </text>
-			<prop>
-				<maintype>Structure</maintype>
-				<manacost>2</manacost>
 				<pt>0/4</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
 		<card>
+			<name>Golem Pit</name>
+			<text>Once per turn, annihilate two minions to summon a Flesh Golem. </text>
+			<prop>
+				<maintype>Structure</maintype>
+				<manacost>4</manacost>
+				<pt>0/8</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
 			<name>Flesh Golem</name>
-			<text></text>
+			<text>Once per turn, Flesh Golem may consume a corpse to restore 3 health.</text>
 			<prop>
 				<maintype>Minion</maintype>
-				<pt>4/4</pt>
+				<pt>5/5</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
 		<card>
 			<name>Willing Sacrifice</name>
-			<text>Annihilate any number of minions. Draw a card for every two minions annihilated this way.</text>
+			<text>Destroy any number of minions. Draw a card for every minion destroyed this way.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>2</manacost>
@@ -145,23 +145,23 @@
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>3</manacost>
-				<pt>0/3</pt>
+				<pt>0/6</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
 		<card>
 			<name>Graveyard</name>
-			<text>Once per turn, you may cast a spell requiring a Corpse token without paying the token cost. You must still pay other costs.</text>
+			<text>Once per turn, you may pay 1 mana to create 2 Corpse tokens</text>
 			<prop>
 				<maintype>Structure</maintype>
-				<manacost>1</manacost>
-				<pt>0/3</pt>
+				<manacost>2</manacost>
+				<pt>0/6</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
 		<card>
 			<name>Greater Abomination</name>
-			<text></text>
+			<text>This minion may attack twice per Minion command.</text>
 			<prop>
 				<maintype>Minion</maintype>
 				<pt>10/10</pt>
@@ -170,7 +170,7 @@
 		</card>
 		<card>
 			<name>Drain Essence</name>
-			<text>Deal one damage to each minion in the opponent's Minion Zone. Restore health equal to the total damage done</text>
+			<text>Deal one damage to each minion in your own Minion Zone. Restore health equal to twice the total damage done</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>3</manacost>
@@ -198,10 +198,10 @@
 		</card>
 		<card>
 			<name>Sinister Betrayal</name>
-			<text>Sacrifice a minion and gain 2 mana. If the minion is named Necromancer's Apprentice. Gain 5 mana.</text>
+			<text>Sacrifice a minion and gain 1 mana. If the minion is named Necromancer's Apprentice. Gain 3 mana.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>1</manacost>
+				<manacost>0</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
@@ -210,7 +210,16 @@
 			<text>Create one zombie for each Corpse token on your board.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>10</manacost>
+				<manacost>6</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Life Tap</name>
+			<text>Lose 10 Health, then gain 2 Mana.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>0</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>

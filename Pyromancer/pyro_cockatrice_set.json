@@ -6,13 +6,13 @@
             "prop": {
                 "maintype": "Structure",
                 "manacost": 1,
-                "pt": "0/3"
+                "pt": "0/6"
             },
             "set": "Pyro"
         },
         {
             "name": "Ignite",
-            "text": "Ignite 1 Pyre or Bonfire.",
+            "text": "Ignite 2 Pyres or Bonfires.",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 1
@@ -21,7 +21,7 @@
         },
         {
             "name": "Fireball",
-            "text": "Deal 1 damage. If this spell destroys a Minion or Structure, gain 1 ember.",
+            "text": "Deal 2 damage. If this spell destroys a Minion or Structure, immediately gain 1 ember.",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 1
@@ -30,26 +30,26 @@
         },
         {
             "name": "Bonfire",
-            "text": "Destroy 3 ingited pyres, then create 1 bonfire. Gives +3 ember per turn.",
+            "text": "Destroy 3 ingited pyres, then create 1 bonfire. Gives +5 ember per turn.",
             "prop": {
                 "maintype": "Structure",
-                "pt": "0/9",
+                "pt": "0/18",
                 "manacost": 2
             },
             "set": "Pyro"
         },
         {
             "name": "Inferno",
-            "text": "Cost 2 ember. Deals 2 damage multiplied by the number of Infernos previously used this turn. Draw 3 cards. ",
+            "text": "Cost 3 ember. Deals damage equal to twice that of the previous Inferno cast this turn. Draw 1 card. ",
             "prop": {
                 "maintype": "Spell",
-                "manacost": 0
+                "manacost": 1
             },
             "set": "Pyro"
         },
         {
             "name": "Lamentation of the Firebird",
-            "text": "Ignite all combustible structures.",
+            "text": "Ignite all of your own combustible structures.",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 4
@@ -67,16 +67,25 @@
         },
         {
             "name": "Scorch",
-            "text": "Cost 2 ember. Deals 3 damage every turn to any card in your opponent's field. +1 ember per turn.",
+            "text": "Cost 2 ember. Ignite any card on the board, dealing 3 damage per turn. +1 ember per turn as long as the target is ignited.",
             "prop": {
-                "maintype": "Curse",
-                "manacost": 0
+                "maintype": "Spell",
+                "manacost": 1
+            },
+            "set": "Pyro"
+        },
+        {
+            "name": "Burn",
+            "text": "Ignite any card on the board, dealing 1 damage per turn. +1 ember per turn as long as the target is ignited.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 1
             },
             "set": "Pyro"
         },
         {
             "name": "Hellfire Comet",
-            "text": "In 3 turns, choose one resolving spell and double its damage dealt to every target.",
+            "text": "This card comes into play with 2 turn counters. At the start of your turn remove a counter. When the last counter is removed, draw a card every time a spell is played for the rest of turn.",
             "prop": {
                 "maintype": "Environmental",
                 "manacost": 0
@@ -85,16 +94,16 @@
         },
         {
             "name": "Gale Winds",
-            "text": "Extinguish all ignited structures. Your opponents minions cannot attack next turn.",
+            "text": "Extinguish all ignited cards. Your opponents minions cannot attack next turn.",
             "prop": {
-                "maintype": "Environmental",
+                "maintype": "Spell",
                 "manacost": 0
             },
             "set": "Pyro"
         },
         {
             "name": "Scorched Earth",
-            "text": "On your next turn, all ignited Structures produce 2x ember. Destroy half of your ignited Structures, rounding up.",
+            "text": "On your next turn, all ignited Structures produce 2x ember. Destroy half of your ignited Structures starting with Bonfires, rounding down.",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 1
@@ -112,7 +121,7 @@
         },
         {
             "name": "Fire Demon",
-            "text": "Costs 5 ember. Gain 2 ember per turn. Can attack without command if ember greater than 10  ",
+            "text": "Costs 5 ember. Gain 2 ember per turn. Once per Minion phase, if ember is greater than 10, may attack as if commanded.  ",
             "prop": {
                 "maintype": "Minion",
                 "pt": "5/5",
@@ -152,7 +161,7 @@
             "text": "Draw 2 cards. If you have 10 or more ember draw 3 cards.",
             "prop": {
                 "maintype": "Spell",
-                "manacost": 2
+                "manacost": 3
             },
             "set": "Pyro"
         }

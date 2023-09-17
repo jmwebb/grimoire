@@ -15,13 +15,13 @@
 			<prop>
 				<maintype>Structure</maintype>
 				<manacost>1</manacost>
-				<pt>0/3</pt>
+				<pt>0/6</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Pyro</set>
 		</card>
 		<card>
 			<name>Ignite</name>
-			<text>Ignite 1 Pyre or Bonfire.</text>
+			<text>Ignite 2 Pyres or Bonfires.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
@@ -30,7 +30,7 @@
 		</card>
 		<card>
 			<name>Fireball</name>
-			<text>Deal 1 damage. If this spell destroys a Minion or Structure, gain 1 ember.</text>
+			<text>Deal 2 damage. If this spell destroys a Minion or Structure, immediately gain 1 ember.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
@@ -39,26 +39,26 @@
 		</card>
 		<card>
 			<name>Bonfire</name>
-			<text>Destroy 3 ingited pyres, then create 1 bonfire. Gives +3 ember per turn.</text>
+			<text>Destroy 3 ingited pyres, then create 1 bonfire. Gives +5 ember per turn.</text>
 			<prop>
 				<maintype>Structure</maintype>
-				<pt>0/9</pt>
+				<pt>0/18</pt>
 				<manacost>2</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="3" muid="123456" picurl="https://i.pinimg.com/originals/59/01/b5/5901b58c61470e89cba5a1df8e6682df.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Inferno</name>
-			<text>Cost 2 ember. Deals 2 damage multiplied by the number of Infernos previously used this turn. Draw 3 cards. </text>
+			<text>Cost 3 ember. Deals damage equal to twice that of the previous Inferno cast this turn. Draw 1 card. </text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>0</manacost>
+				<manacost>1</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="4" muid="123456" picurl="https://www.courant.com/resizer/rrHhffFU7o7pYMcPk9vvuyFeAhc=/800x449/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/MNNKCCODAJHDNDTKRMFLYU47FY.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Lamentation of the Firebird</name>
-			<text>Ignite all combustible structures.</text>
+			<text>Ignite all of your own combustible structures.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>4</manacost>
@@ -76,16 +76,25 @@
 		</card>
 		<card>
 			<name>Scorch</name>
-			<text>Cost 2 ember. Deals 3 damage every turn to any card in your opponent's field. +1 ember per turn.</text>
+			<text>Cost 2 ember. Ignite any card on the board, dealing 3 damage per turn. +1 ember per turn as long as the target is ignited.</text>
 			<prop>
-				<maintype>Curse</maintype>
-				<manacost>0</manacost>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="7" muid="123456" picurl="https://i.pinimg.com/564x/df/f6/d2/dff6d208ce4bdcee80c084bf5b0e9129.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Burn</name>
+			<text>Ignite any card on the board, dealing 1 damage per turn. +1 ember per turn as long as the target is ignited.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="7" muid="123456" picurl="https://i.pinimg.com/564x/df/f6/d2/dff6d208ce4bdcee80c084bf5b0e9129.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Hellfire Comet</name>
-			<text>In 3 turns, choose one resolving spell and double its damage dealt to every target.</text>
+			<text>This card comes into play with 2 turn counters. At the start of your turn remove a counter. When the last counter is removed, draw a card every time a spell is played for the rest of turn.</text>
 			<prop>
 				<maintype>Environmental</maintype>
 				<manacost>0</manacost>
@@ -94,16 +103,16 @@
 		</card>
 		<card>
 			<name>Gale Winds</name>
-			<text>Extinguish all ignited structures. Your opponents minions cannot attack next turn.</text>
+			<text>Extinguish all ignited cards. Your opponents minions cannot attack next turn.</text>
 			<prop>
-				<maintype>Environmental</maintype>
+				<maintype>Spell</maintype>
 				<manacost>0</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="9" muid="123456" picurl="https://timesofsandiego.com/wp-content/uploads/2017/12/Santa-Ana-Winds.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Scorched Earth</name>
-			<text>On your next turn, all ignited Structures produce 2x ember. Destroy half of your ignited Structures, rounding up.</text>
+			<text>On your next turn, all ignited Structures produce 2x ember. Destroy half of your ignited Structures starting with Bonfires, rounding down.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
@@ -121,7 +130,7 @@
 		</card>
 		<card>
 			<name>Fire Demon</name>
-			<text>Costs 5 ember. Gain 2 ember per turn. Can attack without command if ember greater than 10  </text>
+			<text>Costs 5 ember. Gain 2 ember per turn. Once per Minion phase, if ember is greater than 10, may attack as if commanded.  </text>
 			<prop>
 				<maintype>Minion</maintype>
 				<pt>5/5</pt>
@@ -161,7 +170,7 @@
 			<text>Draw 2 cards. If you have 10 or more ember draw 3 cards.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>2</manacost>
+				<manacost>3</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="14" muid="123456" picurl="https://www.worldhistoryedu.com/wp-content/uploads/2019/04/Prometheus-god-of-fire.jpg">Pyro</set>
 		</card>

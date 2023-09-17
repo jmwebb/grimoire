@@ -1,12 +1,16 @@
 import xml.etree.ElementTree as ET
 from xmljson import badgerfish as bf
+import sys
 import json
 import os
 
 current_directory = os.getcwd()
 parent_directory = os.path.dirname(current_directory)
 
-filename=parent_directory+'/Necromancer/necro_cockatrice_set'
+if sys.argv[1] == 'Necro':
+    filename=parent_directory+'/Necromancer/necro_cockatrice_set'
+elif sys.argv[1] == 'Pyro':
+    filename=parent_directory+'/Pyromancer/pyro_cockatrice_set'
 # Parse the XML data
 tree = ET.parse(f"{filename}.xml")  # Replace 'cards.xml' with the path to your XML file
 root = tree.getroot()

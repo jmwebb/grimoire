@@ -1,13 +1,16 @@
 from PIL import Image
 import os
+import sys
 
 # Set the directory containing your JPEG images
 
-classname, prefix = ['Pyromancer','pyro']
-#classname, prefix = ['Necromancer','necro']
-
 current_directory = os.getcwd()
 parent_directory = os.path.dirname(current_directory)
+
+if sys.argv[1] == 'Necro':
+    classname, prefix = ['Necromancer','necro']
+elif sys.argv[1] == 'Pyro':
+    classname, prefix = ['Pyromancer','pyro']
 
 image_directory = f'{parent_directory}/{classname}/{prefix}_cards'
 

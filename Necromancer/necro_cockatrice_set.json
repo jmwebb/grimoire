@@ -2,7 +2,7 @@
     "card": [
         {
             "name": "Summon Skeletons",
-            "text": "Summon two Skeletons",
+            "text": "Summon three Skeletons",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 1
@@ -23,7 +23,7 @@
             "text": "Remove one Corpse token from board. When killed, flip this card.",
             "prop": {
                 "maintype": "Minion",
-                "pt": "1/1",
+                "pt": "3/1",
                 "manacost": 1
             },
             "set": "Necro"
@@ -48,19 +48,19 @@
         },
         {
             "name": "Necromancer's Orders",
-            "text": "Command three minions to attack.",
+            "text": "Command three Minions to attack as if it were the Minion phase.",
             "prop": {
                 "maintype": "Spell",
-                "manacost": 2
+                "manacost": 1
             },
             "set": "Necro"
         },
         {
             "name": "Overwhelming Dominance",
-            "text": "Command all minions to attack.",
+            "text": "Command all minions to attack as if it were the Minion phase.",
             "prop": {
                 "maintype": "Spell",
-                "manacost": 5
+                "manacost": 4
             },
             "set": "Necro"
         },
@@ -70,32 +70,32 @@
             "prop": {
                 "maintype": "Structure",
                 "manacost": 2,
-                "pt": "0/2"
-            },
-            "set": "Necro"
-        },
-        {
-            "name": "Golem Pit",
-            "text": "At the begining of your turn, annihilate a skeleton or zombie to add one counter to Golem Pit. If Golem Pit has 2 counters at the start of your turn, summon a Flesh Golem. ",
-            "prop": {
-                "maintype": "Structure",
-                "manacost": 2,
                 "pt": "0/4"
             },
             "set": "Necro"
         },
         {
+            "name": "Golem Pit",
+            "text": "Once per turn, annihilate two minions to summon a Flesh Golem. ",
+            "prop": {
+                "maintype": "Structure",
+                "manacost": 4,
+                "pt": "0/8"
+            },
+            "set": "Necro"
+        },
+        {
             "name": "Flesh Golem",
-            "text": {},
+            "text": "Once per turn, Flesh Golem may consume a corpse to restore 3 health.",
             "prop": {
                 "maintype": "Minion",
-                "pt": "4/4"
+                "pt": "5/5"
             },
             "set": "Necro"
         },
         {
             "name": "Willing Sacrifice",
-            "text": "Annihilate any number of minions. Draw a card for every two minions annihilated this way.",
+            "text": "Destroy any number of minions. Draw a card for every minion destroyed this way.",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 2
@@ -136,23 +136,23 @@
             "prop": {
                 "maintype": "Spell",
                 "manacost": 3,
-                "pt": "0/3"
+                "pt": "0/6"
             },
             "set": "Necro"
         },
         {
             "name": "Graveyard",
-            "text": "Once per turn, you may cast a spell requiring a Corpse token without paying the token cost. You must still pay other costs.",
+            "text": "Once per turn, you may pay 1 mana to create 2 Corpse tokens",
             "prop": {
                 "maintype": "Structure",
-                "manacost": 1,
-                "pt": "0/3"
+                "manacost": 2,
+                "pt": "0/6"
             },
             "set": "Necro"
         },
         {
             "name": "Greater Abomination",
-            "text": {},
+            "text": "This minion may attack twice per Minion command.",
             "prop": {
                 "maintype": "Minion",
                 "pt": "10/10"
@@ -161,7 +161,7 @@
         },
         {
             "name": "Drain Essence",
-            "text": "Deal one damage to each minion in the opponent's Minion Zone. Restore health equal to the total damage done",
+            "text": "Deal one damage to each minion in your own Minion Zone. Restore health equal to twice the total damage done",
             "prop": {
                 "maintype": "Spell",
                 "manacost": 3
@@ -189,10 +189,10 @@
         },
         {
             "name": "Sinister Betrayal",
-            "text": "Sacrifice a minion and gain 2 mana. If the minion is named Necromancer's Apprentice. Gain 5 mana.",
+            "text": "Sacrifice a minion and gain 1 mana. If the minion is named Necromancer's Apprentice. Gain 3 mana.",
             "prop": {
                 "maintype": "Spell",
-                "manacost": 1
+                "manacost": 0
             },
             "set": "Necro"
         },
@@ -201,7 +201,16 @@
             "text": "Create one zombie for each Corpse token on your board.",
             "prop": {
                 "maintype": "Spell",
-                "manacost": 10
+                "manacost": 6
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Life Tap",
+            "text": "Lose 10 Health, then gain 2 Mana.",
+            "prop": {
+                "maintype": "Spell",
+                "manacost": 0
             },
             "set": "Necro"
         },
