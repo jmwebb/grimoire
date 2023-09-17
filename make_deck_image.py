@@ -2,7 +2,11 @@ from PIL import Image
 import os
 
 # Set the directory containing your JPEG images
-image_directory = 'Pyromancer/pyro_cards'
+
+classname, prefix = ['Pyromancer','pyro']
+#classname, prefix = ['Necromancer','necro']
+
+image_directory = f'{classname}/{prefix}_cards'
 
 # Set the number of rows and columns for the grid
 rows = 6
@@ -11,7 +15,6 @@ columns = 5
 # Get a list of image file paths in the directory
 image_files = [os.path.join(image_directory, filename) for filename in os.listdir(image_directory) if filename.endswith('.png')]
 
-print(image_files)
 # Calculate the width and height of the individual images
 image_width, image_height = Image.open(image_files[0]).size
 
@@ -28,6 +31,6 @@ for i, image_file in enumerate(image_files):
     grid_image.paste(image, (col * image_width, row * image_height))
 
 # Save the final stacked image
-grid_image.save('Pyromancer/pyro_deck.jpg')
+grid_image.save(f'{prefix}_deck.jpg')
 
 print('Stacked image saved as stacked_image.jpg')

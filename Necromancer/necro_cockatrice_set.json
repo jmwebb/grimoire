@@ -23,7 +23,8 @@
             "text": "When killed, flip this card.",
             "prop": {
                 "maintype": "Minion",
-                "pt": "1/1"
+                "pt": "1/1",
+                "manacost": 1
             },
             "set": "Necro"
         },
@@ -68,7 +69,8 @@
             "text": "Bone Necropolis summons one skeleton at the start of each turn",
             "prop": {
                 "maintype": "Structure",
-                "manacost": 2
+                "manacost": 2,
+                "pt": "0/2"
             },
             "set": "Necro"
         },
@@ -77,7 +79,8 @@
             "text": "At the begining of your turn, annihilate a skeleton or zombie to add one counter to Golem Pit. If Golem Pit has 2 counters at the start of your turn, summon a Flesh Golem. ",
             "prop": {
                 "maintype": "Structure",
-                "manacost": 2
+                "manacost": 2,
+                "pt": "0/4"
             },
             "set": "Necro"
         },
@@ -113,6 +116,7 @@
             "text": "When this minion is destroyed, create a Corpse token.",
             "prop": {
                 "maintype": "Minion",
+                "manacost": 1,
                 "pt": "1/1"
             },
             "set": "Necro"
@@ -131,7 +135,8 @@
             "text": "As long as Unholy Chapel is in your structure zone, you may pay 1 mana to summon an Acolyte",
             "prop": {
                 "maintype": "Spell",
-                "manacost": 3
+                "manacost": 3,
+                "pt": "0/3"
             },
             "set": "Necro"
         },
@@ -167,6 +172,7 @@
             "text": "As long as this minion is alive you may play a spell costing 2 mana or less for free each turn. ",
             "prop": {
                 "maintype": "Minion",
+                "manacost": 2,
                 "pt": 1
             },
             "set": "Necro"
@@ -186,6 +192,14 @@
             "prop": {
                 "maintype": "Spell",
                 "manacost": 10
+            },
+            "set": "Necro"
+        },
+        {
+            "name": "Corpse",
+            "text": {},
+            "prop": {
+                "maintype": "Token"
             },
             "set": "Necro"
         }

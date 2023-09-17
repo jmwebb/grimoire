@@ -11,16 +11,26 @@
 	<cards>
 		<card>
 			<name>Pyre</name>
-			<text>Once ignited, +1 ember per turn. Player can play one additional ignition or combustible.</text>
+			<text>Once ignited, +1 ember per turn</text>
 			<prop>
 				<maintype>Structure</maintype>
-				<pt>5</pt>
+				<manacost>1</manacost>
+				<pt>0/3</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Pyro</set>
 		</card>
 		<card>
 			<name>Ignite</name>
-			<text>Cost 1 ember. Ignite 1 combustible. Player can play one additional ignition or combustible.</text>
+			<text>Ignite 1 Pyre or Bonfire.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>1</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="2" muid="123456" picurl="https://static.wikia.nocookie.net/l5r/images/a/ae/Isawa%27s_Fire.jpg/revision/latest?cb=20120810151201">Pyro</set>
+		</card>
+		<card>
+			<name>Fireball</name>
+			<text>Deal 1 damage. If this spell destroys a Minion or Structure, gain 1 ember.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
@@ -29,16 +39,17 @@
 		</card>
 		<card>
 			<name>Bonfire</name>
-			<text>Combine 3 ingited pyres into 1 bonfire for +3 ember per turn. Player can play one additional ignition or combustible.</text>
+			<text>Destroy 3 ingited pyres, then create 1 bonfire. Gives +3 ember per turn.</text>
 			<prop>
 				<maintype>Structure</maintype>
-				<pt>30</pt>
+				<pt>0/9</pt>
+				<manacost>2</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="3" muid="123456" picurl="https://i.pinimg.com/originals/59/01/b5/5901b58c61470e89cba5a1df8e6682df.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Inferno</name>
-			<text>Cost 5 ember. Deals 2 damage multiplied by the number of Infernos previously used this turn. Draw 3 cards. Can ignite 1 combustible. Player can play one additional Inferno.</text>
+			<text>Cost 2 ember. Deals 2 damage multiplied by the number of Infernos previously used this turn. Draw 3 cards. </text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>0</manacost>
@@ -47,16 +58,16 @@
 		</card>
 		<card>
 			<name>Lamentation of the Firebird</name>
-			<text>Cost 50 ember. Deals 25 damage. Can ignite 1 combustible.</text>
+			<text>Ignite all combustible structures.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>3</manacost>
+				<manacost>4</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="5" muid="123456" picurl="https://i.pinimg.com/564x/ec/a8/c3/eca8c322537246fefce65664f8030419.jpg">Pyro</set>
 		</card>
 		<card>
-			<name>Fire at Will!</name>
-			<text>Sacrifice any number of ignited Structures. Deals 3 damage per sacrificed Structure.</text>
+			<name>Blaze of Glory</name>
+			<text>Sacrifice any number of ignited Structures. Deals 3 damage per sacrificed Pyre and 12 damager per sacrificed Bonfire.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>0</manacost>
@@ -65,16 +76,16 @@
 		</card>
 		<card>
 			<name>Scorch</name>
-			<text>Cost 2 ember. Deals 5 damage every turn to any card in your opponent's field. +1 ember per turn.</text>
+			<text>Cost 2 ember. Deals 3 damage every turn to any card in your opponent's field. +1 ember per turn.</text>
 			<prop>
 				<maintype>Curse</maintype>
-				<manacost>2</manacost>
+				<manacost>0</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="7" muid="123456" picurl="https://i.pinimg.com/564x/df/f6/d2/dff6d208ce4bdcee80c084bf5b0e9129.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Hellfire Comet</name>
-			<text>In 3 turns, choose one spell to double the ember cost and damage dealt.</text>
+			<text>In 3 turns, choose one resolving spell and double its damage dealt to every target.</text>
 			<prop>
 				<maintype>Environmental</maintype>
 				<manacost>0</manacost>
@@ -83,7 +94,7 @@
 		</card>
 		<card>
 			<name>Gale Winds</name>
-			<text>For 2 turns, ember costs and structure health are doubled.</text>
+			<text>Extinguish all ignited structures. Your opponents minions cannot attack next turn.</text>
 			<prop>
 				<maintype>Environmental</maintype>
 				<manacost>0</manacost>
@@ -92,7 +103,7 @@
 		</card>
 		<card>
 			<name>Scorched Earth</name>
-			<text>On next turn, all ignited combustibles in your field produce 2x ember. Then, half of combustibles must be removed.</text>
+			<text>On your next turn, all ignited Structures produce 2x ember. Destroy half of your ignited Structures, rounding up.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
@@ -100,38 +111,57 @@
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="10" muid="123456" picurl="https://cdnb.artstation.com/p/assets/images/images/005/849/147/large/azora-visuals-arthur-bozonnet-column-of-fire.jpg">Pyro</set>
 		</card>
 		<card>
-			<name>Summon a Fire Demon</name>
-			<text>Cost 5 ember. Deals 5 damage to opponent target. Can be used to ignite 1 combustible. Can follow with additional lower-ember spell.</text>
+			<name>Summon Fire Demon</name>
+			<text>Cost 5 ember. Summon one Fire Demon.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>1</manacost>
+				<manacost>0</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="11" muid="123456" picurl="https://cdna.artstation.com/p/assets/images/images/008/709/518/large/carlos-martinez-anger-final-31dic.jpg">Pyro</set>
 		</card>
 		<card>
-			<name>Fire Arrows</name>
-			<text>Cost 10 ember. Deal 2 damage to all items in opponent's field. Can be used to ignite 1 combustible. Can follow with additional lower-ember spell.</text>
+			<name>Fire Demon</name>
+			<text>Costs 5 ember. Gain 2 ember per turn. Can attack without command if ember greater than 10  </text>
+			<prop>
+				<maintype>Minion</maintype>
+				<pt>5/5</pt>
+				<manacost>0</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="11" muid="123456" picurl="https://cdna.artstation.com/p/assets/images/images/008/709/518/large/carlos-martinez-anger-final-31dic.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Rain of Fire</name>
+			<text>Deal 2 damage to all minions in opponent's field. </text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>1</manacost>
+				<manacost>4</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="12" muid="123456" picurl="https://cdna.artstation.com/p/assets/images/images/013/254/946/large/pawel-fotek-fire-arrows2.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Awaken the Balrog</name>
-			<text>Cost 30 ember. Deal 15 damage divided in any way. Can be used to ignite 1 combustible.</text>
+			<text>Deal 50 damage divided any way.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>2</manacost>
+				<manacost>10</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="13" muid="123456" picurl="https://www.theonering.net/torwp/wp-content/uploads/2013/12/Bane-of-Durin-headshotFB.jpg">Pyro</set>
 		</card>
 		<card>
 			<name>Gift of Prometheus</name>
-			<text>Gain 10 ember.</text>
+			<text>Gain 2 ember and draw 1 card.</text>
 			<prop>
 				<maintype>Spell</maintype>
-				<manacost>0</manacost>
+				<manacost>3</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="14" muid="123456" picurl="https://www.worldhistoryedu.com/wp-content/uploads/2019/04/Prometheus-god-of-fire.jpg">Pyro</set>
+		</card>
+		<card>
+			<name>Fiery Inspiration</name>
+			<text>Draw 2 cards. If you have 10 or more ember draw 3 cards.</text>
+			<prop>
+				<maintype>Spell</maintype>
+				<manacost>2</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="14" muid="123456" picurl="https://www.worldhistoryedu.com/wp-content/uploads/2019/04/Prometheus-god-of-fire.jpg">Pyro</set>
 		</card>

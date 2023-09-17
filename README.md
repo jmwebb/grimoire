@@ -10,6 +10,7 @@
 
 ## Classes
 1. Pyromancer (unbeatable, you lose if you don't pick this)
+<<<<<<< HEAD
   - Command: 0
   - HP: 100
 
@@ -17,9 +18,17 @@
   - Command: 1
   - HP: 100
 
+=======
+  - Trades enemy health for attack points
+2. Necromancer (decidely less cool then Pyromancer)
+  - Trades own health for defense spawns
+>>>>>>> 20d67e676548221e2f53e00ecf5c2c8b1fd6a642
 3. Arcanist (like, seriously?)
+  - No spawns, draws a lot cards
 4. Blood Mage (Nancy's class)
+  - Trades enemy health for own health
 5. Druid cuck
+  - Health fountain
 
 ## Gameplay
 

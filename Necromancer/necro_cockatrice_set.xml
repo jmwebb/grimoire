@@ -29,10 +29,11 @@
 		</card>
 		<card>
 			<name>Zombie</name>
-			<text>When killed, flip this card.</text>
+			<text>Remove one Corpse token from board. When killed, flip this card.</text>
 			<prop>
 				<maintype>Minion</maintype>
 				<pt>1/1</pt>
+				<manacost>1</manacost>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
@@ -78,6 +79,7 @@
 			<prop>
 				<maintype>Structure</maintype>
 				<manacost>2</manacost>
+				<pt>0/2</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
@@ -87,6 +89,7 @@
 			<prop>
 				<maintype>Structure</maintype>
 				<manacost>2</manacost>
+				<pt>0/4</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
@@ -122,6 +125,7 @@
 			<text>When this minion is destroyed, create a Corpse token.</text>
 			<prop>
 				<maintype>Minion</maintype>
+				<manacost>1</manacost>
 				<pt>1/1</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
@@ -141,6 +145,17 @@
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>3</manacost>
+				<pt>0/3</pt>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Graveyard</name>
+			<text>Once per turn, you may cast a spell requiring a Corpse token without paying the token cost. You must still pay other costs.</text>
+			<prop>
+				<maintype>Structure</maintype>
+				<manacost>1</manacost>
+				<pt>0/3</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
@@ -176,13 +191,14 @@
 			<text>As long as this minion is alive you may play a spell costing 2 mana or less for free each turn. </text>
 			<prop>
 				<maintype>Minion</maintype>
+				<manacost>2</manacost>
 				<pt>1</pt>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
 		<card>
 			<name>Sinister Betrayal</name>
-			<text>Sacrifice a minion named Necromancer's Apprentice. Gain 5 mana.</text>
+			<text>Sacrifice a minion and gain 2 mana. If the minion is named Necromancer's Apprentice. Gain 5 mana.</text>
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>1</manacost>
@@ -195,6 +211,14 @@
 			<prop>
 				<maintype>Spell</maintype>
 				<manacost>10</manacost>
+			</prop>
+			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
+		</card>
+		<card>
+			<name>Corpse</name>
+			<text></text>
+			<prop>
+				<maintype>Token</maintype>
 			</prop>
 			<set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="1" muid="123456" picurl="https://upload.wikimedia.org/wikipedia/commons/b/ba/Unlit_Pyre%2C_Swiss_National_Day_2007.JPG">Necro</set>
 		</card>
