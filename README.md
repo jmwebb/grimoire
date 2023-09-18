@@ -27,7 +27,8 @@
 2. Necromancer (decidely less cool then Pyromancer)
 - Concept
   - Class focuses on Minion summoning and control, as well as "on death" effects. Minions can be ressurected as zombies or sacrificed for other effects. Has cards that allow additional Minion attacks outside of the Minion Phase.
--Stats
+
+- Stats
   - Minion Commands: 3
   - HP: 100
   - Mana/Turn: 3
