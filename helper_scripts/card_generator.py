@@ -23,7 +23,7 @@ icon1 = svg2rlg('mana_symbol.svg')
 
 x1, y1, x2, y2 = icon1.getBounds()
 # Set the size of the icons
-image_scale=4
+image_scale=2
 
 xscale, yscale = (0.5*image_scale, 0.5*image_scale)
 icon1.scale(xscale,yscale)
