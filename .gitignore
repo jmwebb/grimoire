@@ -2,3 +2,10 @@ dev/
 card_template.svg
 svg_template.py
 test_card.svg
+old_designs/
+
+cairo_generation/
+pillow_generation/
+
+necro_cards_vector/
+pyro_cards_vector/
