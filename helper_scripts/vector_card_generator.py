@@ -81,7 +81,7 @@ for card in card_data['card']:
 
     # Save the modified SVG to a new file
     output_svg_filename=f"{parent_directory}/{classname}/{prefix}_cards_vector/{card_name}.svg"
-    output_png_filename=f"{parent_directory}/{classname}/{prefix}_cards_vector/{card_name}.png"
+    output_png_filename=f"{parent_directory}/{classname}/{prefix}_cards/{card_name}.png"
     
     with open(output_svg_filename, "w") as file:
         file.write(dom.toxml())
