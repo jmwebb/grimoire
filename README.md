@@ -1,3 +1,5 @@
+A MTG-style digital card game.
+
 # Rules
 1. Max 2 players
 3. Each deck has total 60 cards
